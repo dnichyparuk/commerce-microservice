@@ -26,7 +26,6 @@ C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\bin\Debug\netco
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.csprojAssemblyReference.cache
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.AssemblyInfoInputs.cache
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.AssemblyInfo.cs
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.csproj.CoreCompileInputs.cache
@@ -39,3 +38,5 @@ C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netco
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.dll
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.pdb
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.genruntimeconfig.cache
+C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\learn-microservices\ECommerce\ECommerce.Api.Products\obj\Debug\netcoreapp3.1\ECommerce.Api.Products.csproj.AssemblyReference.cache

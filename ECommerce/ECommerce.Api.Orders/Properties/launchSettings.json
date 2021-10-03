@@ -18,7 +18,7 @@
       }
     },
     "ECommerce.Api.Orders": {
-      "commandName": "Docker",
+      "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/orders",
       "environmentVariables": {
@@ -27,7 +27,7 @@
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
     },
     "Docker": {
-      "commandName": "IISExpress",
+      "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/orders",
       "publishAllPorts": true,

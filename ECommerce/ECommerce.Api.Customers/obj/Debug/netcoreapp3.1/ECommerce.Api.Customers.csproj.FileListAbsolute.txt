@@ -6,7 +6,6 @@ C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\bin\Debug\netc
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\ECommerce.Api.Customers.runtimeconfig.dev.json
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\ECommerce.Api.Customers.dll
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\ECommerce.Api.Customers.pdb
-C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.csprojAssemblyReference.cache
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.AssemblyInfoInputs.cache
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.AssemblyInfo.cs
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.csproj.CoreCompileInputs.cache
@@ -39,3 +38,5 @@ C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\bin\Debug\netc
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.csproj.CopyComplete
+C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\learn-microservices\ECommerce\ECommerce.Api.Customers\obj\Debug\netcoreapp3.1\ECommerce.Api.Customers.csproj.AssemblyReference.cache

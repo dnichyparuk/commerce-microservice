@@ -1,4 +1,3 @@
-C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.csprojAssemblyReference.cache
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.AssemblyInfoInputs.cache
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.AssemblyInfo.cs
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.csproj.CoreCompileInputs.cache
@@ -39,3 +38,5 @@ C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcore
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.dll
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.pdb
 C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.genruntimeconfig.cache
+C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.csproj.AssemblyReference.cache
+C:\projects\learn-microservices\ECommerce\ECommerce.Api.Search\obj\Debug\netcoreapp3.1\ECommerce.Api.Search.GeneratedMSBuildEditorConfig.editorconfig

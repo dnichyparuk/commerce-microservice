@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W/dXrzdOWNlWpF/eKZU+cc2oOAgKs4WEupxU8O6sXu2QHa7bSuohBsv4bh9dicZYyonrGs8WFdsmvkbvTZGpmw==",
+  "dgSpecHash": "ZwfD+IQbXavdxoOhOoIYTjaFHNkHmaW9Di4caV+FtvX/f/1sG2ymywQ868l+bBhCUek2Rt7Wz8zb9sCdF4gcPw==",
   "success": true,
   "projectFilePath": "C:\\projects\\learn-microservices\\ECommerce\\ECommerce.Api.Orders\\ECommerce.Api.Orders.csproj",
   "expectedPackageFiles": [

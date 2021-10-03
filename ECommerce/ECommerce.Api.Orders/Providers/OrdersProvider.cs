@@ -16,17 +16,18 @@ namespace ECommerce.Api.Orders.Providers
         private readonly ILogger<OrdersProvider> logger;
         private readonly IMapper mapper;
 
-        public async Task<(bool IsSuccess, Models.Order Order, string ErrorMessage)> GetOrderAsync(int id)
+        public async Task<(bool IsSuccess, IEnumerable<Models.Order> Orders, string ErrorMessage)> GetOrdersByCustomerIdAsync(int id)
         {
             try
             {
-                var order = await dbContext
+                var orders = await dbContext
                     .Orders
-                    .Where(x => x.Id.Equals(id))
-                    .FirstOrDefaultAsync();
-                if (order != null)
+                    .Where(o=>o.CustomerId.Equals(id))
+                    .Include(o=>o.OrderItems)
+                    .ToListAsync();
+                if (orders != null && orders.Any())
                 {
-                    var result = mapper.Map<DB.Order, Models.Order>(order);
+                    var result = mapper.Map<IEnumerable<DB.Order>, IEnumerable<Models.Order>>(orders);
                     return (true, result, null);
                 }
                 return (false, null, "Not found");
@@ -77,14 +78,20 @@ namespace ECommerce.Api.Orders.Providers
                     Id = 1,
                     OrderDate = DateTime.Now,
                     CustomerId = 1,
-                    Total = 20,
+                    Total = 25,
                     OrderItems = (new DB.OrderItem[] { 
                         new DB.OrderItem {
                             Id = 1,
                             ProductId = 1,
                             Count = 1,
                             Price = 20
-                        } }).ToList()
+                        },
+                        new DB.OrderItem {
+                            Id = 2,
+                            ProductId = 2,
+                            Count = 1,
+                            Price = 5
+                        }}).ToList()
                 });
                 dbContext.Orders.Add(new DB.Order()
                 {

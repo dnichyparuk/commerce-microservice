@@ -12,6 +12,6 @@ namespace ECommerce.Api.Orders.DB
         public int CustomerId { get; set; }
         public decimal Total { get; set; }
 
-        public IList<OrderItem> OrderItems { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
     }
 }

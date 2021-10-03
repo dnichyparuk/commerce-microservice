@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5aWrMPilGpIJjL0yaeKMQijUO1aNI8ddFHUcM2dgyZhljTGerdykbm44WTP+SfAyfG9Zuz7r+Yvyfbsx9B6ORQ==",
+  "dgSpecHash": "BGAdXp1NiD9BKodrx44n5ZDoSgNjKoZxiIa/oV2YANjCrcX8kMrfKupy9kLX7MK+vUdItW0nHoiQF6bobuyoIQ==",
   "success": true,
   "projectFilePath": "C:\\projects\\learn-microservices\\ECommerce\\ECommerce.Api.Customers\\ECommerce.Api.Customers.csproj",
   "expectedPackageFiles": [

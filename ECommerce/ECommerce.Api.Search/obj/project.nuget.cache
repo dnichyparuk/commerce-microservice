@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M/KCFFIPbMmngtxslrzf9m2jnUBLDl5f1yth62qpIT5OL6j5mBPbhUF5GrozabtC39Fa5k1yYK+E9hyBzdF60A==",
+  "dgSpecHash": "a5kqP/QSoupmSaUHNAefUcDgmdPoG5WUhK9xhqGAm1cp14iNf6VQlmDYF0OyrPlMX3bdzxKYQXbcuXZIEi/91w==",
   "success": true,
   "projectFilePath": "C:\\projects\\learn-microservices\\ECommerce\\ECommerce.Api.Search\\ECommerce.Api.Search.csproj",
   "expectedPackageFiles": [
