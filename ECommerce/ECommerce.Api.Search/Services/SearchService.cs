@@ -29,9 +29,6 @@ namespace ECommerce.Api.Search.Services
                 var productResults = await this.productService.GetProductsAsync();
                 var customerResult = await this.customerService.GetCustomerAsync(customerId);
                 foreach (var o in orders) {
-                    o.CustomerName = customerResult.IsSuccess ?
-                        customerResult.Customer?.Name :
-                        "Information is unavailable";
                     foreach (var oitem in o.OrderItems) {
                         oitem.ProductName = productResults.IsSuccess ?
                             productResults
@@ -44,6 +41,9 @@ namespace ECommerce.Api.Search.Services
                 if (productResults.IsSuccess) {
                     var result = new
                     {
+                        CustomerName = customerResult.IsSuccess ?
+                            customerResult.Customer?.Name :
+                            "Information is unavailable",
                         Orders = orders
                     };
                     return (true, result);
