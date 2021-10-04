@@ -12,5 +12,6 @@ namespace ECommerce.Api.Search.Models
         public decimal Total { get; set; }
 
         public IList<OrderItem> OrderItems { get; set; }
+        public string CustomerName { get; set; }
     }
 }

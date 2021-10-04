@@ -11,6 +11,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Polly;
 
 namespace ECommerce.Api.Search
 {
@@ -28,6 +29,8 @@ namespace ECommerce.Api.Search
         {
             services.AddScoped<Interfaces.ISearchService,SearchService>();
             services.AddScoped<Interfaces.IOrderService, OrderService>();
+            services.AddScoped<Interfaces.ICustomerService, CustomerService>();
+            services.AddScoped<Interfaces.IProductsService, ProductsService>();
             services.AddLogging();
             services.AddHttpClient("OrdersService", config => {
                 config.BaseAddress = new Uri(Configuration["Services:Orders"]);
@@ -37,7 +40,7 @@ namespace ECommerce.Api.Search
             });
             services.AddHttpClient("ProductsService", config => {
                 config.BaseAddress = new Uri(Configuration["Services:Products"]);
-            });
+            }).AddTransientHttpErrorPolicy(p => p.WaitAndRetryAsync(5, _ => TimeSpan.FromMilliseconds(500)));
             services.AddControllers();
         }
 
