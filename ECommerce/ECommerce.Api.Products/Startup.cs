@@ -46,7 +46,7 @@ namespace ECommerce.Api.Products
             }
 
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 

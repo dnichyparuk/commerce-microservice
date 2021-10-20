@@ -44,7 +44,7 @@ namespace ECommerce.Api.Customers
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
